@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", // Output directory for compiled JS files
+    "rootDir": "./",   // Root directory for TS files
+    "module": "commonjs",
+    "target": "es6",
+    "strict": true
+  },
+  "include": ["**/*.ts"] // Include all TS files
+}
