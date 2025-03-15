@@ -1,0 +1,13 @@
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  background-color: #222;
+  overflow-y: auto;
+  border-left: 1px solid #333;
+  color: #fff;
+} 

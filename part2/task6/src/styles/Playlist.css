@@ -1,0 +1,84 @@
+.playlist-container {
+  padding: 20px;
+}
+
+.playlist-container h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: #00b7ff;
+}
+
+.playlist-genre {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #00b7ff;
+}
+
+.playlist-genre::before {
+  content: "Жанр: ";
+}
+
+.genre-link {
+  color: #00b7ff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.genre-link:hover {
+  color: #4dc4ff;
+}
+
+.playlist-name {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  color: #00b7ff;
+}
+
+.playlist-name::before {
+  content: "Название: ";
+}
+
+.tracks-container {
+  margin-top: 20px;
+}
+
+.tracks-container h2 {
+  display: none;
+}
+
+.tracks-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+}
+
+.track-item {
+  padding: 5px 0;
+  border-bottom: none;
+}
+
+.track-info h3 {
+  display: inline;
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+  color: #00b7ff;
+}
+
+.track-info h3::before {
+  content: "- ";
+  color: #00b7ff;
+}
+
+.track-info p {
+  display: none;
+}
+
+.playlist-not-found {
+  font-size: 20px;
+  color: #f44336;
+  text-align: center;
+  margin-top: 50px;
+} 
